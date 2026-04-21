@@ -80,4 +80,12 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub bookndrive Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/razzakkhal/ask-bom</url>
+        </repository>
+    </distributionManagement>
 </project>
